@@ -1,0 +1,111 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    text-align: center; 
+ 
+  
+}
+
+h1{
+    color: white;
+    
+}
+
+ header{
+    background: yellow;
+    grid-area: h;
+    text-align: center;
+    border-radius: 15px;
+    
+
+    
+
+ }
+
+ nav{
+    background: orange;
+    grid-area: n;
+    text-align: center;
+    border-radius: 10px;
+ }
+
+ figure{
+    background: purple;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    height: 60px;
+ }
+
+ section{
+    background: pink;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 60px;
+   
+ }
+
+p{
+    background: blueviolet;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    height: 60px;
+   
+ }
+
+main{
+    background: blue;
+    grid-area: m;
+    text-align: center;
+    border-radius: 20px;
+   
+
+}
+
+article{
+    background-color: cyan;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+
+   
+   
+}
+
+
+aside{
+     background: green;
+     grid-area:  a;
+     text-align: center;
+     border-radius: 20px;
+
+}
+
+
+footer{
+     background: red;
+     grid-area: f;
+     text-align: center;
+     text-align: center;
+     border-radius: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    grid-template-rows: 10vh 5vh 50vh 10vh;
+    grid-template-areas: "h h "
+                         "n n"
+                         "a m"
+                         "f f";
+    grid-gap: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
